@@ -9,7 +9,7 @@ const fetchMock = require( 'fetch-mock' ),
 let zipLink = 'https://github.com/stevemao/left-pad/archive/master.zip',
 	out = 'left-pad-master';
 
-// Careful: lib might might be removed at any moment.
+// Careful: lib might be removed at any moment.
 fetchMock.get( zipLink,
 	fsp.createReadStream( path.join( __dirname, 'left-pad-master.zip' ) ) );
 
