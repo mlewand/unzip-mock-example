@@ -1,0 +1,26 @@
+{
+  "name": "unzip-mock-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlewand/unzip-mock-example.git"
+  },
+  "author": "Marek Lewandowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mlewand/unzip-mock-example/issues"
+  },
+  "homepage": "https://github.com/mlewand/unzip-mock-example#readme",
+  "dependencies": {
+    "fetch-mock": "^5.8.1",
+    "fs-promise": "^1.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "rimraf-then": "^1.0.1",
+    "unzip": "^0.1.11"
+  }
+}
