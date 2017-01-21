@@ -10,8 +10,8 @@ let zipLink = 'https://github.com/stevemao/left-pad/archive/master.zip',
 	out = 'left-pad-master';
 
 // Careful: lib might might be removed at any moment.
-// fetchMock.get( zipLink,
-// 	fsp.createReadStream( path.join( __dirname, 'left-pad-master.zip' ) ) );
+fetchMock.get( zipLink,
+	fsp.createReadStream( path.join( __dirname, 'left-pad-master.zip' ) ) );
 
 rimraf( out )
 	.then( () => fetch( zipLink ) )
